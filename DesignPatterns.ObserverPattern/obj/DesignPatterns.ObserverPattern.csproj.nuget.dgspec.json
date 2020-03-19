@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\DesignPatterns.StrategyPattern.csproj": {}
+    "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\DesignPatterns.ObserverPattern\\DesignPatterns.ObserverPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\DesignPatterns.StrategyPattern.csproj": {
+    "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\DesignPatterns.ObserverPattern\\DesignPatterns.ObserverPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\DesignPatterns.StrategyPattern.csproj",
-        "projectName": "DesignPatterns.StrategyPattern",
-        "projectPath": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\DesignPatterns.StrategyPattern.csproj",
+        "projectUniqueName": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\DesignPatterns.ObserverPattern\\DesignPatterns.ObserverPattern.csproj",
+        "projectName": "DesignPatterns.ObserverPattern",
+        "projectPath": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\DesignPatterns.ObserverPattern\\DesignPatterns.ObserverPattern.csproj",
         "packagesPath": "C:\\Users\\fakdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\obj\\",
+        "outputPath": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\DesignPatterns.ObserverPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

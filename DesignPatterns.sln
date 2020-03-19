@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.StrategyPattern", "DesignPatterns.StrategyPattern\DesignPatterns.StrategyPattern.csproj", "{75CA82F6-7CAC-4527-9AB0-05AC75843B74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.StrategyPattern", "src\DesignPatterns.StrategyPattern\DesignPatterns.StrategyPattern.csproj", "{75CA82F6-7CAC-4527-9AB0-05AC75843B74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C75D5666-6E1F-40D4-9AE9-1C0CC5940BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ObserverPattern", "DesignPatterns.ObserverPattern\DesignPatterns.ObserverPattern.csproj", "{18A5DA1E-47B8-4A3C-ADDA-531FA5FCBDF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,17 @@ Global
 		{75CA82F6-7CAC-4527-9AB0-05AC75843B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75CA82F6-7CAC-4527-9AB0-05AC75843B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75CA82F6-7CAC-4527-9AB0-05AC75843B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A5DA1E-47B8-4A3C-ADDA-531FA5FCBDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A5DA1E-47B8-4A3C-ADDA-531FA5FCBDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A5DA1E-47B8-4A3C-ADDA-531FA5FCBDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A5DA1E-47B8-4A3C-ADDA-531FA5FCBDF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75CA82F6-7CAC-4527-9AB0-05AC75843B74} = {C75D5666-6E1F-40D4-9AE9-1C0CC5940BC0}
+		{18A5DA1E-47B8-4A3C-ADDA-531FA5FCBDF4} = {C75D5666-6E1F-40D4-9AE9-1C0CC5940BC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {897E584A-7866-416A-91E7-7803856F8D9E}

@@ -1,0 +1,11 @@
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\bin\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.exe
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\bin\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.deps.json
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\bin\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.runtimeconfig.json
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\bin\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.runtimeconfig.dev.json
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\bin\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.dll
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\bin\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.pdb
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\obj\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.csprojAssemblyReference.cache
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\obj\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.AssemblyInfoInputs.cache
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\obj\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.AssemblyInfo.cs
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\obj\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.dll
+C:\Users\fakdi\Desktop\DesignPatterns\DesignPatterns.ObserverPattern\obj\Debug\netcoreapp3.1\DesignPatterns.ObserverPattern.pdb
