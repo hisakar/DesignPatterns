@@ -11,9 +11,9 @@ namespace DesignPatterns.ObserverPattern
         {
             var chatRoom = new ChatRoom();
 
-            var userFromMobile = new UserFromCellPhone(chatRoom,1);
-            var userFromDesktop = new UserFromDesktop(chatRoom,2);
-            var userFromWeb = new UserFromWeb(chatRoom,3);
+            var userFromMobile = new UserFromCellPhone(chatRoom);
+            var userFromDesktop = new UserFromDesktop(chatRoom);
+            var userFromWeb = new UserFromWeb(chatRoom);
 
             var observerList = new List<IObserver> { userFromWeb, userFromDesktop, userFromMobile };
 

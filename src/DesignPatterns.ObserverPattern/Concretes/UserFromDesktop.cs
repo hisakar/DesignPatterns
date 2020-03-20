@@ -5,9 +5,8 @@ using DesignPatterns.ObserverPattern.Abstracts;
 
 namespace DesignPatterns.ObserverPattern.Concretes
 {
-    public class UserFromWeb:IObserver
+   public  class UserFromDesktop:IObserver
     {
-        public int Id { get; set; }
 
         public ChatRoom ChatRoom;
 
@@ -15,12 +14,12 @@ namespace DesignPatterns.ObserverPattern.Concretes
 
         public string LastMessage { get; set; }
 
-        public UserFromWeb(ChatRoom chatRoom,int id)
+        public UserFromDesktop(ChatRoom chatRoom)
         {
-            Id = id;
             ChatRoom = chatRoom;
             Messages = Messages ?? new List<string>();
         }
+
 
         public void Update()
         {
@@ -32,14 +31,13 @@ namespace DesignPatterns.ObserverPattern.Concretes
         {
             foreach (var message in Messages)
             {
-                Console.WriteLine($"Written from WEB ==> {message}");
+                Console.WriteLine($"Written from DESKTOP ==> {message}");
             }
         }
 
         public void WriteLastMessageToConsole()
         {
-            Console.WriteLine($"Written from WEB ==> {LastMessage}");
+            Console.WriteLine($"Written from DESKTOP ==> {LastMessage}");
         }
-
     }
 }

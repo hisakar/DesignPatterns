@@ -5,23 +5,19 @@ using DesignPatterns.ObserverPattern.Abstracts;
 
 namespace DesignPatterns.ObserverPattern.Concretes
 {
-   public  class UserFromDesktop:IObserver
+    public class UserFromCellPhone:IObserver
     {
-        public int Id { get; set; }
-
         public ChatRoom ChatRoom;
 
         public IList<string> Messages { get; set; }
 
         public string LastMessage { get; set; }
 
-        public UserFromDesktop(ChatRoom chatRoom,int id)
+        public UserFromCellPhone(ChatRoom chatRoom)
         {
-            Id = id;
             ChatRoom = chatRoom;
             Messages = Messages ?? new List<string>();
         }
-
 
         public void Update()
         {
@@ -33,13 +29,13 @@ namespace DesignPatterns.ObserverPattern.Concretes
         {
             foreach (var message in Messages)
             {
-                Console.WriteLine($"Written from DESKTOP ==> {message}");
+                Console.WriteLine($"Written from MOBILE ==> {message}");
             }
         }
 
         public void WriteLastMessageToConsole()
         {
-            Console.WriteLine($"Written from DESKTOP ==> {LastMessage}");
+            Console.WriteLine($"Written from MOBILE ==> {LastMessage}");
         }
     }
 }

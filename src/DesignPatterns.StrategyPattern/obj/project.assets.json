@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\fakdi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Orhan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\DesignPatterns.StrategyPattern.csproj",
+      "projectUniqueName": "C:\\Users\\Orhan\\source\\repos\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\DesignPatterns.StrategyPattern.csproj",
       "projectName": "DesignPatterns.StrategyPattern",
-      "projectPath": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\DesignPatterns.StrategyPattern.csproj",
-      "packagesPath": "C:\\Users\\fakdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fakdi\\Desktop\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\obj\\",
+      "projectPath": "C:\\Users\\Orhan\\source\\repos\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\DesignPatterns.StrategyPattern.csproj",
+      "packagesPath": "C:\\Users\\Orhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Orhan\\source\\repos\\DesignPatterns\\src\\DesignPatterns.StrategyPattern\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fakdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Orhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

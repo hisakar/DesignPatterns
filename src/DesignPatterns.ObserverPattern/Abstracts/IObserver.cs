@@ -6,7 +6,6 @@ namespace DesignPatterns.ObserverPattern.Abstracts
 {
     public interface IObserver
     {
-        int Id { get; set; }
         void Update();
     }
 }
