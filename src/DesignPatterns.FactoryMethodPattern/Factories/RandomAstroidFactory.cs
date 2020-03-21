@@ -14,8 +14,8 @@ namespace DesignPatterns.FactoryMethodPattern.Factories
             var random = new Random();
             var axisX = random.NextDouble() * GetScreenSizeX();
             var axisY = random.NextDouble() * GetScreenSizeY();
-            var size = 20 + random.NextDouble() * 50;
-            var astroidShape = astroidShapes[random.Next(0,2)];
+            var size = GetAstroidMinSize() + random.NextDouble() * GetAstroidSizeWeight();
+            var astroidShape = astroidShapes[random.Next(0,astroidShapes.Length)];
 
             return new Astroid(axisX, axisY, size, astroidShape);
         }
@@ -28,6 +28,15 @@ namespace DesignPatterns.FactoryMethodPattern.Factories
         private int GetScreenSizeY()
         {
             return 864;
+        }
+
+        private int GetAstroidMinSize()
+        {
+            return 20;
+        }
+        private int GetAstroidSizeWeight()
+        {
+            return 50;
         }
     }
 }
